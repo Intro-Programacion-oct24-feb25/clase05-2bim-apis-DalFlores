@@ -14,9 +14,8 @@ public class Principal {
         int valorA = Operador.obtenerNumero();
         int valorB = Operador.obtenerNumero();
         int suma = Operador.obtenerSuma(valorA, valorB);
-        System.out.printf("La suma de %d + %d es igual a: %d\n", 
-                valorA,
-                valorB,
-                suma);
+        
+        
+        Operador.presentarDatos(valorA, valorB, suma);
     }
 }
